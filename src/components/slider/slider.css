@@ -1,0 +1,82 @@
+.top-tutor-container {
+  width: 100%;
+  /* height: 100vh; */
+  /* background: #cdcdcd; */
+  display: flex;
+}
+
+.top-tutor-img-box {
+  width: 8vw;
+  height: 30vh;
+  margin: 10px;
+  border-radius: 50px;
+  /* background: url(../../assets/img/tutor1.png); */
+  /* background-color: aqua; */
+  border: white solid;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 1s;
+}
+
+.top-tutor-img-box:nth-child(1) {
+  width: 8vw;
+  opacity: 1;
+  background: url(./img/blog.png);
+  background-size: cover;
+  background-position: center;
+}
+.top-tutor-img-box:nth-child(1) h5 {
+  /* bottom: 25px; */
+  /* opacity: 1 ; */
+}
+.top-tutor-img-box:nth-child(2) {
+  background: url(./img/paint.png);
+  background-size: cover;
+  background-position: center;
+}
+.top-tutor-img-box:nth-child(3) {
+  background: url(./img/link.png);
+  background-size: cover;
+  background-position: center;
+}
+.top-tutor-img-box:nth-child(4) {
+  background: url(./img/translator.png);
+  background-size: cover;
+  background-position: center;
+}
+.top-tutor-img-box:nth-child(5) {
+  background: url(./img/bookmark.png);
+  background-size: cover;
+  background-position: center;
+}
+.top-tutor-img-box:nth-child(6) {
+  background: url(./img/house.png);
+  background-size: cover;
+  background-position: center;
+}
+.top-tutor-img-box:nth-child(7) {
+  background: url(./img/churn.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.top-tutor-img-box h5 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  margin: 15px;
+  transition: bottom 0.5s, width 0.5s;
+  background-color: rgb(55, 55, 55);
+  /* line-height: 2; */
+}
+
+.top-tutor-img-box:hover {
+  width: 15vw;
+  cursor: pointer;
+}
+.top-tutor-img-box:hover h5 {
+  opacity: 1;
+  bottom: 20px;
+}
